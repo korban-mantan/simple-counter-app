@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/736x/47/b8/68/47b8687e1a612547846960c69381aaaa.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter-body">
+        <div class="counter-title">
+          <h1 class="title-text">Aplikasi hitungan Sederhana</h1>
+        </div>
+        <div class="counter-main">
+          <p class="counter-text">Nilai hitungan saat ini adalah :</p>
+          <h2 class="current-count">0</h2>
+        </div>
+        <div class="doubled-count">
+          <p class="counter-text">
+			  Nilai hitungan jika digandakan adalah: <span id="ganda">0</span>
+			</p>
+			<button class="count-button" id="reset">Reset</button>
+        </div>
+        <div class="count-buttons">
+          <button class="count-button" id="divideByTwo" onclick="divideByTwo()">Bagi 2</button
+          ><button class="count-button" id="substract">-</button
+          ><button class="count-button" id="add">+</button
+          ><button class="count-button" id="timesByTwo">Kali 2</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
